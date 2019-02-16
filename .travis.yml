@@ -4,9 +4,8 @@ jobs:
   include:
     # Define the release stage that runs semantic-release
     - stage: release
-      # Arbitrary command to skip `make test`
-      script:
-        - bash -c 'echo $BASH_VERSION'
+      # Skip `make test`
+      script: skip
       deploy:
         provider: script
         skip_cleanup: true
