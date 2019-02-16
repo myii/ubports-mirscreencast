@@ -4,12 +4,11 @@ jobs:
   include:
     # Define the release stage that runs semantic-release
     - stage: release
-      # Skip `make test`
-      script: skip
+      script:
+        # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
+        - nvm install lts/*
       deploy:
         provider: script
         skip_cleanup: true
         script:
-          # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
-          - nvm install lts/*
           - npx semantic-release
