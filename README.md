@@ -5,3 +5,4 @@ Main purpose here is to get `semantic-release` working.
 * Not yet but have just set tags up to `v0.0.4` on the commits so far.
 * Not triggered when pushing direct to `master`.
 * Trying with all sorts of updated settings and token authentication.
+* Trying `language: minimal`.
