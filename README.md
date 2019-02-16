@@ -22,7 +22,7 @@ Type|Description|v0.x.x|v1.x.x+
 `fix`|A bug fix|0.0.1|
 `docs`|Documentation only changes|0.0.0|
 `style`|Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)|0.0.0|
-`refactor`|A code change that neither fixes a bug nor adds a feature||
+`refactor`|A code change that neither fixes a bug nor adds a feature|0.0.0|
 `perf`|A code change that improves performance|0.0.1|
 `test`|Adding missing or correcting existing tests||
 `chore`|Changes to the build process or auxiliary tools and libraries such as documentation generation||
