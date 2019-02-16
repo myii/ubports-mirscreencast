@@ -25,4 +25,4 @@ Type|Description|v0.x.x|v1.x.x+
 `refactor`|A code change that neither fixes a bug nor adds a feature|0.0.0|
 `perf`|A code change that improves performance|0.0.1|
 `test`|Adding missing or correcting existing tests|0.0.0|
-`chore`|Changes to the build process or auxiliary tools and libraries such as documentation generation||
+`chore`|Changes to the build process or auxiliary tools and libraries such as documentation generation|0.0.0|
