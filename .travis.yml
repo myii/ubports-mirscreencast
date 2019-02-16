@@ -6,8 +6,7 @@ jobs:
     - stage: release
       # Arbitrary command to skip `make test`
       script:
-        - nvm install lts/*
-        - npx semantic-release
+        - bash -c 'echo $BASH_VERSION'
       deploy:
         provider: script
         skip_cleanup: true
