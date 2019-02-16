@@ -1,5 +1,7 @@
 # ubports-mirscreencast
 
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+
 ## Getting `semantic-release` working
 
 Main purpose here is to get `semantic-release` working.
@@ -23,6 +25,6 @@ Type|Description|v0.x.x|v1.x.x+
 `docs`|Documentation only changes|0.0.0|
 `style`|Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)|0.0.0|
 `refactor`|A code change that neither fixes a bug nor adds a feature|0.0.0|
-`perf`|A code change that improves performance|0.0.1|
+`perf`|A code change that improves performance|0.0.1|0.0.1
 `test`|Adding missing or correcting existing tests|0.0.0|
 `chore`|Changes to the build process or auxiliary tools and libraries such as documentation generation|0.0.0|
