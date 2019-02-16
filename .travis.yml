@@ -8,7 +8,7 @@ jobs:
     - stage: release
       # Arbitrary command to skip `make test`
       script:
-        - npm ci
+        - bash -c 'echo $BASH_VERSION'
       deploy:
         provider: script
         skip_cleanup: true
