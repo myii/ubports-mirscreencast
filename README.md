@@ -18,7 +18,7 @@ Based upon https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type:
 
 Type|Description|v0.x.x|v1.x.x+
 -----|-----|-----|-----
-`feat`|A new feature|0.1.0|
+`feat`|A new feature|0.1.0|0.1.0
 `fix`|A bug fix|0.0.1|
 `docs`|Documentation only changes|0.0.0|
 `style`|Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)|0.0.0|
