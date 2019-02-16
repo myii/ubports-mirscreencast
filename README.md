@@ -18,11 +18,11 @@ Based upon https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type:
 
 Type|Description|v0.x.x|v1.x.x+
 -----|-----|-----|-----
-`feat`|A new feature||
+`feat`|A new feature|0.1.0|
 `fix`|A bug fix|0.0.1|
 `docs`|Documentation only changes|0.0.0|
 `style`|Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)||
 `refactor`|A code change that neither fixes a bug nor adds a feature||
-`perf`|A code change that improves performance||
+`perf`|A code change that improves performance|0.0.1|
 `test`|Adding missing or correcting existing tests||
 `chore`|Changes to the build process or auxiliary tools and libraries such as documentation generation||
