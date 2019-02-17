@@ -62,3 +62,4 @@ Doing a series of commits here to push in one go, to see what comes through afte
 * `feat`
 * `fix`
 * `docs`
+* `style`
