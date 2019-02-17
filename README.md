@@ -13,6 +13,7 @@ Main purpose here is to get `semantic-release` working.
     * OK, got to `v0.0.5` automatically with the commit message done properly!
 * Trying with all sorts of updated settings and token authentication.
 * Trying `language: minimal`.
+    * That didn't work but the next step up did: `language: generic`.
 
 ## Types and the relative version bumps
 
