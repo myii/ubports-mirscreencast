@@ -45,3 +45,7 @@ https://www.npmjs.com/package/semantic-release-gitlab#major-version-zero:
 > Note: To release a version `1.0.0` of your library you must create a `1.0.0` tag manually on your GitLab project.
 > 
 > When the `major` version is greater than zero, `semantic-release-gitlab` will switch back to it's default behavior of following semantic versioning. (Which uses the `inc` function provided by the `semver` package.)
+
+## Plugins working
+
+* `changelog` working (had to enable the `git` plugin as well).
