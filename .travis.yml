@@ -6,7 +6,6 @@ jobs:
     - stage: release
       script:
         - npm install @semantic-release/changelog -D
-        - npm install @semantic-release/git -D
       deploy:
         provider: script
         skip_cleanup: true
