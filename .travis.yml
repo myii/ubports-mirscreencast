@@ -1,4 +1,4 @@
-language: node_js
+language: generic
 
 install:
   # install all of the dependencies you need here
