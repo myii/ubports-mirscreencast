@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.3.1](https://github.com/myii/ubports-mirscreencast/compare/v4.3.0...v4.3.1) (2019-02-17)
+
+
+### Bug Fixes
+
+* **FORMULA:** try `prepareCmd` ([3283ea1](https://github.com/myii/ubports-mirscreencast/commit/3283ea1))
+
 # [4.3.0](https://github.com/myii/ubports-mirscreencast/compare/v4.2.0...v4.3.0) (2019-02-17)
 
 
