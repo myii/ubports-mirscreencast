@@ -19,16 +19,16 @@ Main purpose here is to get `semantic-release` working.
 
 Based upon https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type:
 
-Type|Description|Bump (default)|Customised
------|-----|-----|-----
-`feat`|A new feature|0.1.0|
-`fix`|A bug fix|0.0.1|
-`docs`|Documentation only changes|0.0.0|0.0.1
-`style`|Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)|0.0.0|0.0.1
-`refactor`|A code change that neither fixes a bug nor adds a feature|0.0.0|0.0.1
-`perf`|A code change that improves performance|0.0.1|
-`test`|Adding missing or correcting existing tests|0.0.0|0.0.1
-`chore`|Changes to the build process or auxiliary tools and libraries such as documentation generation|0.0.0|
+Type|Description|Bump (default)|Customised|Docs
+-----|-----|-----|-----|-----
+`feat`|A new feature|0.1.0||y
+`fix`|A bug fix|0.0.1||y
+`docs`|Documentation only changes|0.0.0|0.0.1|n
+`style`|Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)|0.0.0|0.0.1|n
+`refactor`|A code change that neither fixes a bug nor adds a feature|0.0.0|0.0.1|n
+`perf`|A code change that improves performance|0.0.1||y
+`test`|Adding missing or correcting existing tests|0.0.0|0.0.1|n
+`chore`|Changes to the build process or auxiliary tools and libraries such as documentation generation|0.0.0||n
 
 * Adding `BREAKING CHANGE` to the footer of the extended description of the commit message will **always** trigger a `major` version change, no matter which type has been used.
 
@@ -68,3 +68,5 @@ Doing a series of commits here to push in one go, to see what comes through afte
 * `test`
 * `chore` -- appended automatically.
 * `ci` -- already in the stack of commits (not one of the main ones, anyway).
+
+Added another column to the table to show the ones that are documented automatically.
