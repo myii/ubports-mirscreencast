@@ -1,26 +1,17 @@
 language: generic
 
-install:
-  # install all of the dependencies you need here
-  - npm install @commitlint/travis-cli -D
-
-script:
-  - commitlint-travis
-
-# jobs:
-#   include:
-#     # Define the release stage that runs semantic-release
-#     - stage: release
-#       script:
-#         # - npm install @commitlint/travis-cli -D
-#         # - commitlint-travis
-#         - npm install @semantic-release/changelog -D
-#         - npm install @semantic-release/exec -D
-#         - npm install @semantic-release/git -D
-#       deploy:
-#         provider: script
-#         skip_cleanup: true
-#         script:
-#           # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
-#           # - nvm install lts/*
-#           - npx semantic-release
+jobs:
+  include:
+    # Define the release stage that runs semantic-release
+    - stage: release
+      script:
+        - npm install @semantic-release/changelog -D
+        - npm install @semantic-release/exec -D
+        - npm install @semantic-release/git -D
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
+          # - nvm install lts/*
+          - npx semantic-release
