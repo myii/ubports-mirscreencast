@@ -1,5 +1,12 @@
 # Changelog
 
+# [4.3.0](https://github.com/myii/ubports-mirscreencast/compare/v4.2.0...v4.3.0) (2019-02-17)
+
+
+### Features
+
+* trigger build for `FORMULA` ([95a2aed](https://github.com/myii/ubports-mirscreencast/commit/95a2aed))
+
 # [4.2.0](https://github.com/myii/ubports-mirscreencast/compare/v4.1.1...v4.2.0) (2019-02-17)
 
 
