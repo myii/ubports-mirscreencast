@@ -1,7 +1,7 @@
-language: generic
+language: node_js
 
 script:
-  - npm install @commitlint/travis-cli -D
+  # - npm install @commitlint/travis-cli -D
   - commitlint-travis
 
 jobs:
