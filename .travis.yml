@@ -1,7 +1,10 @@
 language: node_js
 
+install:
+  # install all of the dependencies you need here
+  - npm install @commitlint/travis-cli -D
+
 script:
-  # - npm install @commitlint/travis-cli -D
   - commitlint-travis
 
 # jobs:
