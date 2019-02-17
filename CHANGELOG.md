@@ -1,5 +1,15 @@
 # Changelog
 
+# [5.0.0](https://github.com/myii/ubports-mirscreencast/compare/v4.5.3...v5.0.0) (2019-02-17)
+
+
+* Update README.md ([b344ad1](https://github.com/myii/ubports-mirscreencast/commit/b344ad1))
+
+
+### BREAKING CHANGES
+
+* testing if the default option still works for a new `major` version.
+
 ## [4.5.3](https://github.com/myii/ubports-mirscreencast/compare/v4.5.2...v4.5.3) (2019-02-17)
 
 
