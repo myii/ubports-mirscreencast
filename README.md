@@ -32,8 +32,8 @@ Type|Description|Bump (default)|Customised
 
 * Adding any of the following to the extended description of the commit message will **always** trigger a `major` version change, no matter which type has been used:
     * `BREAKING CHANGE` (default).
-    * `BREAKING CHANGES`.
-    * `BREAKING`.
+    * `BREAKING CHANGES` (not working).
+    * `BREAKING` (disabled).
 
 The last two columns in table above were unnecessary and was because I had come across the following while researching, from the offshoot GitLab-based project:
 
