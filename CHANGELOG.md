@@ -1,5 +1,12 @@
 # Changelog
 
+# [3.4.0](https://github.com/myii/ubports-mirscreencast/compare/v3.3.2...v3.4.0) (2019-02-17)
+
+
+### Features
+
+* **changelog:** complete all missing changelog entries from releases ([8f7f695](https://github.com/myii/ubports-mirscreencast/commit/8f7f695))
+
 ## [3.3.2](https://github.com/myii/ubports-mirscreencast/compare/v3.3.1...v3.3.2) (2019-02-17)
 
 
