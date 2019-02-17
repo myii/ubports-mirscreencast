@@ -53,3 +53,10 @@ https://www.npmjs.com/package/semantic-release-gitlab#major-version-zero:
 ## `FORMULA`
 
 * Testing the plan to update the `version` automatically.
+
+## Testing the types displayed in the release notes
+
+Noticed that not all of the types are displayed (excpet for breaking chages).
+Doing a series of commits here to push in one go, to see what comes through after the PR:
+
+* `feat`
