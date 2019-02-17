@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.5.3](https://github.com/myii/ubports-mirscreencast/compare/v4.5.2...v4.5.3) (2019-02-17)
+
+
+### Bug Fixes
+
+* **releaserc:** work with custom breaking changes values ([dc39b04](https://github.com/myii/ubports-mirscreencast/commit/dc39b04))
+
+
+### BREAKING CHANGES
+
+* **releaserc:** testing this custom value.
+
 ## [4.5.2](https://github.com/myii/ubports-mirscreencast/compare/v4.5.1...v4.5.2) (2019-02-17)
 
 
