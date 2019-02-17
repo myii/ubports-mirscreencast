@@ -1,5 +1,22 @@
 # Changelog
 
+# [5.2.0](https://github.com/myii/ubports-mirscreencast/compare/v5.1.1...v5.2.0) (2019-02-17)
+
+
+### Bug Fixes
+
+* test docs ([f76acbc](https://github.com/myii/ubports-mirscreencast/commit/f76acbc))
+
+
+### Features
+
+* test docs ([d2af191](https://github.com/myii/ubports-mirscreencast/commit/d2af191))
+
+
+### Performance Improvements
+
+* test docs ([a011600](https://github.com/myii/ubports-mirscreencast/commit/a011600))
+
 ## [5.1.1](https://github.com/myii/ubports-mirscreencast/compare/v5.1.0...v5.1.1) (2019-02-17)
 
 # [5.1.0](https://github.com/myii/ubports-mirscreencast/compare/v5.0.1...v5.1.0) (2019-02-17)
