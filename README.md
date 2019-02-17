@@ -18,13 +18,29 @@ Main purpose here is to get `semantic-release` working.
 
 Based upon https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#type:
 
-Type|Description|v0.x.x|v1.x.x+
------|-----|-----|-----
-`feat`|A new feature|0.1.0|0.1.0
-`fix`|A bug fix|0.0.1|0.0.1
-`docs`|Documentation only changes|0.0.0|
-`style`|Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)|0.0.0|
-`refactor`|A code change that neither fixes a bug nor adds a feature|0.0.0|
-`perf`|A code change that improves performance|0.0.1|0.0.1
-`test`|Adding missing or correcting existing tests|0.0.0|
-`chore`|Changes to the build process or auxiliary tools and libraries such as documentation generation|0.0.0|
+Type|Description|Bump
+-----|-----|-----
+`feat`|A new feature|0.1.0
+`fix`|A bug fix|0.0.1
+`docs`|Documentation only changes|0.0.0
+`style`|Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)|0.0.0
+`refactor`|A code change that neither fixes a bug nor adds a feature|0.0.0
+`perf`|A code change that improves performance|0.0.1
+`test`|Adding missing or correcting existing tests|0.0.0
+`chore`|Changes to the build process or auxiliary tools and libraries such as documentation generation|0.0.0
+
+* Adding `BREAKING CHANGE: ...` to the extended description of the commit message will **always** trigger a `major` version change, no matter which type has been used.
+
+The last two columns in table above were unnecessary and was because I had come across the following while researching, from the offshoot GitLab-based project:
+
+https://www.npmjs.com/package/semantic-release-gitlab#major-version-zero:
+
+> === Major Version Zero
+> 
+> When the `major` version, the first number in `major.minor.patch`, of a semantic version string, is zero, `semantic-release-gitlab` will increment the version number following a different set of rules.
+> 
+> In this scenario, incrementing the `major` version will increment what is traditionally the `minor` number in the semantic version string, while incrementing the `minor` or `patch` version will increment the `patch` number in the semantic version string.
+> 
+> Note: To release a version `1.0.0` of your library you must create a `1.0.0` tag manually on your GitLab project.
+> 
+> When the `major` version is greater than zero, `semantic-release-gitlab` will switch back to it's default behavior of following semantic versioning. (Which uses the `inc` function provided by the `semver` package.)
