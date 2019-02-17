@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.5.2](https://github.com/myii/ubports-mirscreencast/compare/v4.5.1...v4.5.2) (2019-02-17)
+
+
+### Code Refactoring
+
+* **releaserc:** rename to include `.json` extension ([9e4d582](https://github.com/myii/ubports-mirscreencast/commit/9e4d582))
+
+
+### BREAKING CHANGES
+
+* **releaserc:** testing if this comes through with custom setting.
+
 # [4.5.0](https://github.com/myii/ubports-mirscreencast/compare/v4.4.0...v4.5.0) (2019-02-17)
 
 
