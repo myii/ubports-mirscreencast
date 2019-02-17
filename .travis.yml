@@ -4,12 +4,12 @@ jobs:
   include:
     # Define the release stage that runs semantic-release
     - stage: release
-      script: skip
+      script:
+        - npm install @semantic-release/changelog -D
       deploy:
         provider: script
         skip_cleanup: true
         script:
           # Use nvm to install and use the Node LTS version (nvm is installed on all Travis images)
           # - nvm install lts/*
-          - npm install @semantic-release/changelog -D
           - npx semantic-release
