@@ -10,7 +10,7 @@
     ["@semantic-release/exec", {
       "prepare": [{
         "path": "@semantic-release/exec",
-        "cmd": "./update_FORMULA.sh ${nextRelease.version}"
+        "cmd": "chmod +x update_FORMULA.sh && ./update_FORMULA.sh ${nextRelease.version}"
       }],
     }],
     ["@semantic-release/git", {
