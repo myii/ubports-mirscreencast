@@ -5,6 +5,8 @@ jobs:
     # Define the release stage that runs semantic-release
     - stage: release
       script:
+        - npm install @commitlint/travis-cli -D
+        - commitlint-travis
         - npm install @semantic-release/changelog -D
         - npm install @semantic-release/exec -D
         - npm install @semantic-release/git -D
