@@ -7,8 +7,6 @@
 
 * add heading to changelog title ([e635950](https://github.com/myii/ubports-mirscreencast/commit/e635950))
 
-Changelog
-
 # [3.3.0](https://github.com/myii/ubports-mirscreencast/compare/v3.2.0...v3.3.0) (2019-02-17)
 
 
