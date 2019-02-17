@@ -35,7 +35,7 @@ The last two columns in table above were unnecessary and was because I had come 
 
 https://www.npmjs.com/package/semantic-release-gitlab#major-version-zero:
 
-> === Major Version Zero
+> ### Major Version Zero
 > 
 > When the `major` version, the first number in `major.minor.patch`, of a semantic version string, is zero, `semantic-release-gitlab` will increment the version number following a different set of rules.
 > 
