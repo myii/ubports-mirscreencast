@@ -1,5 +1,7 @@
 # Changelog
 
+## [5.2.1](https://github.com/myii/ubports-mirscreencast/compare/v5.2.0...v5.2.1) (2019-02-17)
+
 # [5.2.0](https://github.com/myii/ubports-mirscreencast/compare/v5.1.1...v5.2.0) (2019-02-17)
 
 
