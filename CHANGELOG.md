@@ -1,5 +1,22 @@
 # Changelog
 
+# [4.5.0](https://github.com/myii/ubports-mirscreencast/compare/v4.4.0...v4.5.0) (2019-02-17)
+
+
+### Bug Fixes
+
+* **releaserc:** missing `@` ([bceef84](https://github.com/myii/ubports-mirscreencast/commit/bceef84))
+
+
+### Features
+
+* **releaserc:** provide configuration for `release-notes-generator` ([ddeecb7](https://github.com/myii/ubports-mirscreencast/commit/ddeecb7))
+
+
+### BREAKING CHANGES
+
+* **releaserc:** testing that this is working with the custom value.
+
 # [4.4.0](https://github.com/myii/ubports-mirscreencast/compare/v4.3.2...v4.4.0) (2019-02-17)
 
 
