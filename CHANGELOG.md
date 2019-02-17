@@ -1,5 +1,12 @@
 # Changelog
 
+# [4.2.0](https://github.com/myii/ubports-mirscreencast/compare/v4.1.1...v4.2.0) (2019-02-17)
+
+
+### Features
+
+* **FORMULA:** update `assests` ([c10b014](https://github.com/myii/ubports-mirscreencast/commit/c10b014))
+
 # [4.1.0](https://github.com/myii/ubports-mirscreencast/compare/v4.0.0...v4.1.0) (2019-02-17)
 
 
