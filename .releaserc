@@ -8,10 +8,7 @@
       "changelogTitle": "# Changelog",
     }],
     ["@semantic-release/exec", {
-      "prepare": [{
-        "path": "@semantic-release/exec",
-        "cmd": "chmod +x update_FORMULA.sh && ./update_FORMULA.sh ${nextRelease.version}"
-      }],
+      "prepareCmd": "chmod +x update_FORMULA.sh && ./update_FORMULA.sh ${nextRelease.version}"
     }],
     ["@semantic-release/git", {
       "assets": ["CHANGELOG.md", "FORMULA"],
