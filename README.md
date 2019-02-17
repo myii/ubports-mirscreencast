@@ -49,3 +49,7 @@ https://www.npmjs.com/package/semantic-release-gitlab#major-version-zero:
 ## Plugins working
 
 * `changelog` working (had to enable the `git` plugin as well).
+
+## `FORMULA`
+
+* Testing the plan to update the `version` automatically.
