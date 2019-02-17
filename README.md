@@ -30,10 +30,7 @@ Type|Description|Bump (default)|Customised
 `test`|Adding missing or correcting existing tests|0.0.0|
 `chore`|Changes to the build process or auxiliary tools and libraries such as documentation generation|0.0.0|
 
-* Adding any of the following to the extended description of the commit message will **always** trigger a `major` version change, no matter which type has been used:
-    * `BREAKING CHANGE` (default).
-    * `BREAKING CHANGES` (not working).
-    * `BREAKING` (disabled).
+* Adding `BREAKING CHANGE` to the footer of the extended description of the commit message will **always** trigger a `major` version change, no matter which type has been used.
 
 The last two columns in table above were unnecessary and was because I had come across the following while researching, from the offshoot GitLab-based project:
 
