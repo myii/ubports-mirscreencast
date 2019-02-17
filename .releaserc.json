@@ -9,16 +9,10 @@
         {"type": "style", "release": "patch"},
         {"type": "refactor", "release": "patch"},
         {"type": "perf", "release": "patch"}
-      ],
-      "parserOpts": {
-        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
-      }
+      ]
     }],
     ["@semantic-release/release-notes-generator", {
       "preset": "angular",
-      "parserOpts": {
-        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES"]
-      },
       "writerOpts": {
         "commitsSort": ["subject", "scope"]
       }
