@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.3.2](https://github.com/myii/ubports-mirscreencast/compare/v4.3.1...v4.3.2) (2019-02-17)
+
+
+### Bug Fixes
+
+* **FORMULA:** working already but try without `chmod +x` ([4bedc53](https://github.com/myii/ubports-mirscreencast/commit/4bedc53))
+
 ## [4.3.1](https://github.com/myii/ubports-mirscreencast/compare/v4.3.0...v4.3.1) (2019-02-17)
 
 
