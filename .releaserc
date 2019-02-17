@@ -8,23 +8,31 @@
         {"type": "fix", "release": "patch"},
         {"type": "style", "release": "patch"},
         {"type": "refactor", "release": "patch"},
-        {"type": "perf", "release": "patch"},
+        {"type": "perf", "release": "patch"}
       ],
       "parserOpts": {
         "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
       }
     }],
-    "@semantic-release/release-notes-generator",
+    ["semantic-release/release-notes-generator", {
+      "preset": "angular",
+      "parserOpts": {
+        "noteKeywords": ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"]
+      },
+      "writerOpts": {
+        "commitsSort": ["subject", "scope"]
+      }
+    }],
     ["@semantic-release/changelog", {
       "changelogFile": "CHANGELOG.md",
-      "changelogTitle": "# Changelog",
+      "changelogTitle": "# Changelog"
     }],
     ["@semantic-release/exec", {
       "prepareCmd": "./update_FORMULA.sh ${nextRelease.version}"
     }],
     ["@semantic-release/git", {
-      "assets": ["CHANGELOG.md", "FORMULA"],
+      "assets": ["CHANGELOG.md", "FORMULA"]
     }],
-    "@semantic-release/github",
-  ],
+    "@semantic-release/github"
+  ]
 }
