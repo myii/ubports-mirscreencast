@@ -66,3 +66,5 @@ Doing a series of commits here to push in one go, to see what comes through afte
 * `refactor`
 * `perf`
 * `test`
+* `chore` -- appended automatically.
+* `ci` -- already in the stack of commits (not one of the main ones, anyway).
