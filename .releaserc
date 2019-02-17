@@ -14,7 +14,7 @@
       }],
     }],
     ["@semantic-release/git", {
-      "assets": ['FORMULA'],
+      "assets": ["CHANGELOG.md", "FORMULA"],
     }],
     "@semantic-release/github",
   ],
