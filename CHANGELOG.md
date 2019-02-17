@@ -1,5 +1,12 @@
 # Changelog
 
+# [4.1.0](https://github.com/myii/ubports-mirscreencast/compare/v4.0.0...v4.1.0) (2019-02-17)
+
+
+### Features
+
+* **formula:** update `FORMULA` version number ([b1c5690](https://github.com/myii/ubports-mirscreencast/commit/b1c5690))
+
 # [4.0.0](https://github.com/myii/ubports-mirscreencast/compare/v3.4.0...v4.0.0) (2019-02-17)
 
 
